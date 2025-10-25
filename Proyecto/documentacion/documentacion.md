@@ -2,7 +2,22 @@
 
 # INTRODUCCION
 
+## El proyecto `Casa Inteligente con Control de Ambientes y Ventilador Automatizado` tiene como propósito diseñar e implementar un sistema automatíco integral que permita gestionar de manera centralizada y remota los dispositivos electrónicos de una vivienda. Utilizando un microcontrolador Arduino como núcleo de control, en este caso se utilizó un Arduino 1, el sistema integra una matriz de iluminación distribuida en cinco ambientes (sala, comedor, cocina, baño y habitación), un ventilador simulado mediante un motor DC, una puerta automatizada con servomotor y una interfaz de configuración basada en archivos de texto (.org). Además, incorpora comunicación Bluetooth para el control remoto desde dispositivos móviles utilizando la aplicacion "Serial Bluetooth Terminal" y una pantalla LCD para retroalimentación en tiempo real.
+
+## Este proyecto demuestra la aplicación práctica de conceptos de organización computacional, sistemas embebidos, gestión de memoria no volátil (EEPROM) y comunicación serial, abordando desafíos técnicos como la sincronización de dispositivos, la validación de comandos y la persistencia de configuraciones.
+
 # OBJETIVOS
+
+## Objetivo General:
+### Diseñar e implementar una maqueta funcional de una casa inteligente que permita configurar, almacenar y ejecutar escenas predefinidas para el control de iluminación, ventilación y acceso, integrando microcontroladores, memoria EEPROM, comunicación Bluetooth y una interfaz de usuario intuitiva.
+
+## Objetivos Específicos:
+
+1. Implementar un sistema de almacenamiento en memoria EEPROM para guardar configuraciones de escenas luminosas y estados de dispositivos, garantizando su persistencia tras reinicios del sistema.
+
+2. Desarrollar una interfaz de configuración mediante archivos .org, permitiendo cargar, validar y procesar escenas personalizadas desde una computadora hacia el Arduino.
+
+3. Integrar un módulo Bluetooth para el control remoto de los ambientes y dispositivos desde un dispositivo móvil, sincronizando las salidas físicas (LEDs, motor DC, servomotor) con la retroalimentación visual en la pantalla LCD y los indicadores LED.
 
 # DIAGRAMA ESQUEMATICO
 
@@ -669,7 +684,7 @@ void errorDesconocido() {
 
 # FORMATO .ORG
 
-El siguiente proyecto utiliza archivos con extensión `.org`
+### El siguiente proyecto utiliza archivos con extensión `.org`
 para almacenar la configuración que tendrá cada comando en el sistema.
 
 La sintaxis es la siguiente:
@@ -782,6 +797,12 @@ Total: Q398.00
 
 # CONCLUSIONES
 
+1. La implementación de la memoria EEPROM permitió garantizar la persistencia de las configuraciones del sistema, asegurando que los modos predefinidos y los estados de los dispositivos se mantuvieran tras reinicios o cortes de energía. Esto demostró la importancia de la gestión de memoria no volátil en sistemas embebidos para aplicaciones domóticas.
+
+2. La integración de múltiples módulos (Bluetooth, LCD, motor DC, servomotor y matriz de LEDs) evidenció la versatilidad del Arduino como núcleo de control, aunque requirió una planificación cuidadosa para evitar conflictos de recursos y garantizar una operación estable y sincronizada.
+
+3. El uso de archivos .org para la configuración de escenas proporcionó flexibilidad y escalabilidad al sistema, permitiendo la personalización de comportamientos sin modificar el código fuente. La validación de sintaxis y el manejo de errores durante la carga del archivo fueron clave para asegurar la robustez del sistema.
+
 # ANEXO
 
 ![img1.jpg](img1.jpg)
@@ -795,3 +816,15 @@ Total: Q398.00
 ![img3.jpg](img3.jpg)
 
 *Figura 3: Cableado del circuito en general y dispositivos digitales. Fuente propia, 2025*
+
+![m-1.jpg](m-1.jpg)
+
+*Figura 4: Elaboracion de maqueta, Ambiente de habitación. Fuente propia, 2025*
+
+![m-3.jpg](m-3.jpg)
+
+*Figura 5: Elaboracion de maqueta, Ambiente de cocina. Fuente propia, 2025*
+
+![m-5.jpg](m-5.jpg)
+
+*Figura 6: Elaboracion de maqueta. Fuente propia, 2025*
