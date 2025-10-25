@@ -1,4 +1,33 @@
-# CARATULA
+# 🏫 Universidad San Carlos de Guatemala
+# 🏗️ Facultad de Ingeniería
+# 💻 Ingeniería en Ciencias y Sistemas
+# 🔌 Organización Computacional
+
+
+---
+
+## **🔐 Proyecto Final: Casa Inteligente con Control de Ambientes y Ventilador Automatizado.**
+
+**Grupo:** G2  
+**Semestre:** Segundo Semestre 2025
+
+**👥 Integrantes:**
+-  GARY DANIEL URIZAR GARCIA - 202101146
+- WILSON WILFREDO PEREZ OTZOY - 202300697
+- WALTER MANUEL MENDOZA PÉREZ - 202106830
+
+**Auxiliar:** Juan Pablo Garcia Ceballos 
+**Catedrático:** Ing. Otto Rene Escobar Leiva
+
+**Fecha de Entrega:** 24/10/2025
+
+---
+
+<div align="center">
+
+*"¡Id y enseñar a todos!"*
+
+</div>
 
 # INTRODUCCION
 
