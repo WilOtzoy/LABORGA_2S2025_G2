@@ -1,0 +1,11 @@
+// Esto es un comentario
+// Configuración de modos para el sistema de control
+conf_ini // validar que venga si no mostrar error
+// Modo FIESTA
+modo_fiesta
+//el modo siempre va a venir de esta manera para evitar algún inconveniente con los modos del teléfono
+Mensaje en LCD: "Modo: FIESTA." // Esto puede o no venir ya que el modo se define arriba
+Ventilador: ON // El otro modo es OFF
+LED’S: Alternandose
+// La forma de Alternandose debe de encender las led's de forma intermitente en varios ambientes
+conf:fin // validar que venga si no mostrar error

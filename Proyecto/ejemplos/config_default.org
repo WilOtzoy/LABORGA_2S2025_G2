@@ -1,0 +1,27 @@
+// Archivo con configuración inicial por defecto
+conf_ini
+
+modo_fiesta
+Mensaje en LCD: "Modo: FIESTA."
+Ventilador: ON
+LED'S: Alternandose
+
+modo_relajado
+Mensaje en LCD: "Modo: RELAJADO"
+Ventilador: OFF
+LED'S: OFF
+
+modo_noche
+Mensaje en LCD: "Modo: NOCHE"
+Ventilador: OFF
+LED'S: OFF
+
+encender_todo
+Ventilador: ON
+LED'S: ON
+
+apagar_todo
+Ventilador: OFF
+LED'S: OFF
+
+conf:fin
